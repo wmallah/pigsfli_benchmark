@@ -1,0 +1,46 @@
+\documentclass[
+    reprint,
+    lengthcheck,
+    amsmath, amssymb,
+    aps, onecolumn,
+    floatfix
+]{revtex4-2}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{float}% for positioning tables and figures
+\usepackage{booktabs}% \toprule, \midrule, \bottomrule
+\usepackage[capitalize]{cleveref}% for referencing figures and tables
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{The Bose-Hubbard Model and Machine Learning}
+
+\author{Will Mallah}
+\affiliation{Physics Department, Saint Vincent College\\}
+
+\date{\today}
+
+\begin{abstract}
+    \input{abstract.tex}
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+\input{intro.tex}
+
+\section{Methods}
+\input{methods.tex}
+
+\section{Discussion}
+\input{discussion.tex}
+
+\nocite{*}
+\bibliography{main}% Produces the bibliography via BibTeX.
+
+
+\end{document}

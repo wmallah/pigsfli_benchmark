@@ -1,0 +1,173 @@
+\subsection{Bose-Hubbard Calculations}
+\subsubsection{\textbf{$2^{nd}$ Quantization Von Nuemann Entanglement Entropy Calculation}}
+To get a better initial feeling for this calculation, begin with the simpler case: $2^{nd}$ quantization or spatial entanglement. The basis for $2^{nd}$ quantization is as follows:
+\begin{equation}
+|2 0 \rangle, |1 1 \rangle, |0 2 \rangle.
+\end{equation}
+\noindent The full Hamiltonian for the Bose-Hubbard system is
+\begin{equation}
+\hat{H} = -J\sum_i{b_i^{\dagger}b_{i+1} + b_{i+1}^{\dagger}b_i} + \frac{U}{2}\sum_i{n_i(n_i - 1)} - \mu\sum_i{n_i},
+\end{equation}
+\noindent where J is the hopping term, U is the potential energy, and $\mu$ is the chemical potential. $b^{\dagger}$ and $b$ are the creation and annhilation operators, respectively. They act as follows:
+\begin{align}
+b^{\dagger}|n\rangle &= \sqrt{n+1}\enspace|n+1\rangle \\
+b|n\rangle &= \sqrt{n}\enspace|n-1\rangle.
+\end{align}
+\noindent The full Hamiltonian can be calculated by calculating the kinetic and potential pieces separately, then simply adding them together. Start by calculating the kinetic energy piece of the full matrix Hamiltonian. The kinetic energy part of the full hamiltonian above for the 2 particle, 2 site system is
+\begin{equation}
+\hat{H}_{KE}=-J(b_1^{\dagger}b_2+b_2^{\dagger}b_1).
+\end{equation}
+\noindent The matrix elements of the kinetic energy part of the Hamiltonian are calculated as follows:
+\begin{align*}
+\langle{20|H_{KE}|20\rangle} &=0 \\
+\langle{11|H_{KE}|20\rangle} &=-\sqrt{2}J \\
+\langle{02|H_{KE}|20\rangle} &=0 \\
+\langle{20|H_{KE}|11\rangle} &=-\sqrt{2}J \\
+\langle{11|H_{KE}|11\rangle} &=0 \\
+\langle{02|H_{KE}|11\rangle} &=-\sqrt{2}J \\
+\langle{20|H_{KE}|02\rangle} &=0 \\
+\langle{11|H_{KE}|02\rangle} &=-\sqrt{2}J \\
+\langle{02|H_{KE}|02\rangle} &=0.
+\end{align*}
+\noindent From these matrix elements, the full kinetic energy piece of the Hamiltonian is written as:
+\begin{equation}
+\hat{H}_{KE} = \begin{pmatrix} 0 & -\sqrt{2} & 0 \\ -\sqrt{2} & 0 & -\sqrt{2} \\ 0 & -\sqrt{2} & 0 \end{pmatrix}.
+\end{equation}
+\noindent Next, the potential part of the hamiltonian can be calculated as follows:
+\begin{equation}
+\hat{H}_{P} = \frac{U}{2}\sum_i{n_i(n_i - 1)} = \frac{U}{2}[n_1(n_1 - 1) + n_2(n_2 - 1)],
+\end{equation}
+\noindent where $n_i = b_i^{\dagger}b_i$. The elements of the potential part of the Hamiltonian matrix are:
+\begin{align*}
+\langle{20|H_{P}|20\rangle} &=U \\
+\langle{11|H_{P}|20\rangle} &=0 \\
+\langle{02|H_{P}|20\rangle} &=0 \\
+\langle{20|H_{P}|11\rangle} &=0 \\
+\langle{11|H_{P}|11\rangle} &=0 \\
+\langle{02|H_{P}|11\rangle} &=0 \\
+\langle{20|H_{P}|02\rangle} &=0 \\
+\langle{11|H_{P}|02\rangle} &=0 \\
+\langle{02|H_{P}|02\rangle} &=U.
+\end{align*}
+\noindent From these matrix elements, the full potential energy part of the Hamiltonian is written as:
+\begin{equation}
+\hat{H}_{P} = \begin{pmatrix} U & 0 & 0 \\ 0 & 0 & 0 \\ 0 & 0 & U \end{pmatrix}.
+\end{equation}
+\noindent The separate kinetic and potential energy pieces of the matrix Hamiltonian can be combined together to make the full matrix as follows:
+\begin{equation}
+\hat{H} = \begin{pmatrix} U & -\sqrt{2} & 0 \\ -\sqrt{2} & 0 & -\sqrt{2} \\ 0 & -\sqrt{2} & U \end{pmatrix}.
+\end{equation}
+\noindent Now that we have the full matrix Hamiltonian, we can find the energy states of the system by solving the Schrodinger equation. The general form of the Schrodinger equation is
+\begin{equation}
+\hat{H}|\psi\rangle = E|\psi\rangle.
+\end{equation}
+\noindent This equation can then be manipulated to look like the following equation:
+\begin{equation}
+\left( \hat{H}-E\hat{I} \right) |\psi\rangle = 0.
+\end{equation}
+\noindent Since we're not interested in the solution where $|\psi\rangle=0$, then $\hat{H}-E\hat{I}$ must be zero. This yields the following characteristic equation:
+\begin{equation}
+\hat{H}-E\hat{I} = 0.
+\end{equation}
+\noindent This characteristic equation can be solved via expanding the matrix minors and solving the resulting polynomial, where
+\begin{equation}
+-E^2 + 2UE^2 + 4J^2E - U^2E - 4J^2U = 0.
+\end{equation}
+\noindent Solving this equation yields 
+\begin{align*}
+E_1 &= U \\
+E_2 &= \frac{1}{2} \left( U - \sqrt{16J^2 + U^2} \right) \\
+E_3 &= \frac{1}{2} \left( U + \sqrt{16J^2 + U^2} \right).
+\end{align*}
+\noindent These are the eigenvalues for the Hamiltonian calculated earlier. Looking at the three energies listed above, it is obvious that $E_2$ is the ground state energy since it is the lowest of the three. Before the entanglement entropy can be calculated, the density matrix and reduced density matrix must be found. The full density matrix is defined as $\rho = |\psi \rangle \langle \psi|$. The calculation is as follows:
+\begin{align}
+\hat{\rho} = \left( \alpha |2 0 \rangle + \beta |1 1 \rangle + \gamma |0 2 \rangle \right) \left( \alpha^* \langle 2 0 | + \beta^* \langle 1 1| + \gamma^* \langle 0 2| \right).
+\end{align}
+\noindent Putting our result in matrix notation yields the following:
+\begin{equation}
+\hat{\rho} = \begin{bmatrix} \alpha \alpha^* & \alpha \beta^* & \alpha \gamma^* \\ \beta \alpha^* & \beta \beta^* & \beta \gamma^* \\ \gamma \alpha^* & \gamma \beta^* & \gamma \gamma^* \end{bmatrix}.
+\end{equation}
+\noindent The reduced density matrix is calculated as follows:
+\begin{align}
+\hat{\rho}_A &= \sum_{n=0}^{2}{{}_B \langle n | \psi \rangle \langle \psi | n \rangle_B} = {}_B \langle 0 | \psi \rangle \langle \psi | 0 \rangle_B + {}_B \langle 1 | \psi \rangle \langle \psi | 1 \rangle_B + {}_B \langle 2 | \psi \rangle \langle \psi | 2 \rangle_B \\
+\hat{\rho}_A &=|\alpha|^2 {}_A |2\rangle\langle2|_A + |\beta|^2 {}_A |1\rangle\langle1|_A + |\gamma|^2 {}_A |0\rangle\langle0|_A.
+\end{align}
+\noindent These elements written in matrix notation are as follows:
+\begin{equation}
+\hat{\rho}_A = \begin{bmatrix} |\alpha|^2 & 0 & 0 \\ 0 & |\beta|^2 & 0 \\ 0 & 0 & |\gamma|^2 \end{bmatrix}
+\end{equation}
+\noindent Now, we want to calculate the ground state eigenvector. This can be done by plugging our ground state eigenvalue into equation [10] and solving the resulting augmented matrix. This matrix is as follows:
+\begin{equation}
+\begin{bmatrix} U - \frac{1}{2} \left( U - \sqrt{16J^2 + U^2} \right) & -\sqrt{2}J & 0 \\ -\sqrt{2}J & -\frac{1}{2} \left( U - \sqrt{16J^2 + U^2} \right) & -\sqrt{2}J \\ 0 & -\sqrt{2}J & U - \frac{1}{2} \left( U - \sqrt{16J^2 + U^2} \right) \end{bmatrix} \begin{bmatrix} \alpha \\ \beta \\ \gamma \end{bmatrix} = 0.
+\end{equation}
+\noindent Solving the above equation provides the solutions for $\alpha$, $\beta$, \& $\gamma$, which are as follows:
+\begin{align*}
+\alpha &= \frac{2}{\sqrt{ U'^2 + U' \sqrt{U' + 16} + 16}} = \gamma \\
+\beta &= \frac{U' + \sqrt{U' + 16}}{\sqrt{2}\sqrt{U'^2 + U' \sqrt{U' + 16} + 16}},
+\end{align*}
+\noindent where $U'$ is defined as $U' = \frac{U}{J}$ for simplicity. Finally, the spatial entanglement entropy is calculated as follows:
+\begin{align}
+S_1 &= -Tr \left( \rho_A \ln{\rho_A} \right) = -Tr \begin{bmatrix} |\alpha|^2 \ln{|\alpha|^2} & 0 & 0 \\ 0 & |\beta|^2 \ln{|\beta|^2} & 0 \\ 0 & 0 & |\gamma|^2 \ln{|\gamma|^2} \end{bmatrix} \\
+S_1 &= -\left[ |\alpha|^2 \ln{|\alpha|^2} + |\beta|^2 \ln{|\beta|^2} + |\gamma|^2 \ln{|\gamma|^2} \right]
+\end{align}
+\subsubsection{\textbf{$1^{st}$ Quantization Von Nuemann Entanglement Entropy Calculation}}
+Now, we want to run through the same process with $1^{st}$ quantization to obtain the particle entanglement. The basis for $1^{st}$ quantization is as follows:
+\begin{align}
+|1_1 2_1 \rangle, |1_1 2_2 \rangle, |1_2 2_1 \rangle, |1_2 2_2 \rangle.
+\end{align}
+\noindent We begin by calculating the full Hamiltonian, which behaves the same way for $1^{st}$ quantization as it did for $2^{nd}$ quantization:
+\begin{equation}
+\hat{H} = \begin{bmatrix} \langle 1_1 2_1 | \hat{H} | 1_1 2_1 \rangle & \langle 1_1 2_1 | \hat{H} | 1_1 2_2 \rangle & \langle 1_1 2_1 | \hat{H} | 1_2 2_1 \rangle & \langle 1_1 2_1 | \hat{H} | 1_2 2_2 \rangle \\ \langle 1_1 2_2 | \hat{H} | 1_1 2_1 \rangle & \langle 1_1 2_2 | \hat{H} | 1_1 2_2 \rangle & \langle 1_1 2_2 | \hat{H} | 1_2 2_1 \rangle & \langle 1_1 2_2 | \hat{H} | 1_2 2_2 \rangle \\ \langle 1_2 2_1 | \hat{H} | 1_1 2_1 \rangle & \langle 1_2 2_1 | \hat{H} | 1_1 2_2 \rangle & \langle 1_2 2_1 | \hat{H} | 1_2 2_1 \rangle & \langle 1_2 2_1 | \hat{H} | 1_2 2_2 \rangle \\ \langle 1_2 2_2 | \hat{H} | 1_1 2_1 \rangle & \langle 1_2 2_2 | \hat{H} | 1_1 2_2 \rangle & \langle 1_2 2_2 | \hat{H} | 1_2 2_1 \rangle & \langle 1_2 2_2 | \hat{H} | 1_2 2_2 \rangle \end{bmatrix} 
+\end{equation}
+\begin{equation}
+\hat{H} = \begin{bmatrix} U & -\sqrt{2} & -\sqrt{2} & 0 \\ -\sqrt{2} & 0 & 0 & -\sqrt{2} \\ -\sqrt{2} & 0 & 0 & -\sqrt{2} \\ 0 & -\sqrt{2} & -\sqrt{2} & U \end{bmatrix}.
+\end{equation}
+\noindent The full density matrix is then given by $|\psi \rangle \langle \psi|$, where $\psi$, the ground state, is given by:
+\begin{equation*}
+\psi = \alpha |1_1 2_1 \rangle + \frac{\beta}{\sqrt{2}} \left( |1_1 2_2 \rangle + |1_2 2_1 \rangle \right) + \gamma |1_2 2_2 \rangle.
+\end{equation*}
+\iffalse
+\begin{equation}
+\hat{\rho} = \begin{bmatrix} \langle 1_1 2_1 | \hat{\rho} | 1_1 2_1 \rangle & \langle 1_1 2_1 | \hat{\rho} | 1_1 2_2 \rangle & \langle 1_1 2_1 | \hat{\rho} | 1_2 2_1 \rangle & \langle 1_1 2_1 | \hat{\rho} | 1_2 2_2 \rangle \\ \langle 1_1 2_2 | \hat{\rho} | 1_1 2_1 \rangle & \langle 1_1 2_2 | \hat{\rho} | 1_1 2_2 \rangle & \langle 1_1 2_2 | \hat{\rho} | 1_2 2_1 \rangle & \langle 1_1 2_2 | \hat{\rho} | 1_2 2_2 \rangle \\ \langle 1_2 2_1 | \hat{\rho} | 1_1 2_1 \rangle & \langle 1_2 2_1 | \hat{\rho} | 1_1 2_2 \rangle & \langle 1_2 2_1 | \hat{\rho} | 1_2 2_1 \rangle & \langle 1_2 2_1 | \hat{\rho} | 1_2 2_2 \rangle \\ \langle 1_2 2_2 | \hat{\rho} | 1_1 2_1 \rangle & \langle 1_2 2_2 | \hat{\rho} | 1_1 2_2 \rangle & \langle 1_2 2_2 | \hat{\rho} | 1_2 2_1 \rangle & \langle 1_2 2_2 | \hat{\rho} | 1_2 2_2 \rangle \end{bmatrix} 
+\end{equation}
+\fi
+\begin{equation}
+\hat{\rho} = \begin{bmatrix} |\alpha|^2 & \frac{\alpha \beta^*}{\sqrt{2}} & \frac{\alpha \beta^*}{\sqrt{2}} & \alpha \gamma^* \\ \frac{\beta \alpha^*}{\sqrt{2}} & \frac{|\beta|^2}{2} & \frac{|\beta|^2}{2} & \frac{\beta \gamma^*}{\sqrt{2}} \\ \frac{\beta \alpha^*}{\sqrt{2}} & \frac{|\beta|^2}{2} & \frac{|\beta|^2}{2} & \frac{\beta \gamma^*}{\sqrt{2}} \\ \gamma \alpha^* & \frac{\gamma \beta^*}{\sqrt{2}} & \frac{\gamma \beta^*}{\sqrt{2}} & |\gamma|^2 \end{bmatrix}.
+\end{equation}
+\noindent We then needed to calculate the reduced density matrix, which is given by tracing out the degrees of freedom of the second particle. The reduced density matrix is as follows:
+\begin{align}
+\hat{\rho}_A &= \sum_{n=1}^{2} {}_B \langle n|\psi \rangle \langle \psi|n \rangle_B = {}_B\langle 2_1|\psi \rangle \langle \psi|2_1 \rangle_B + {}_B\langle 2_2|\psi \rangle \langle \psi|2_2 \rangle_B
+\end{align}
+\begin{align*}
+\hat{\rho}_A &= \left( |\alpha|^2 + \frac{|\beta|^2}{2} \right) {}_A |1_1 \rangle \langle 1_1|_A
++ \left( \frac{\alpha \beta^* + \beta \gamma^*}{\sqrt{2}} \right) {}_A |1_1 \rangle \langle 1_2|_A \\
+&+ \left( \frac{\beta \alpha^*+ \gamma \beta^*}{\sqrt{2}} \right) {}_A |1_2 \rangle \langle 1_1|
++ \left( \frac{|\beta|^2}{2} + |\gamma|^2 \right) {}_A |1_2 \rangle \langle 1_2|_A.
+\end{align*}
+\begin{equation}
+\hat{\rho}_A = \begin{bmatrix} {}_A \langle 1_1 | \hat{\rho_A} | 1_1 \rangle & {}_A \langle 1_1 | \hat{\rho_A} | 1_2 \rangle \\ {}_A \langle 1_2 | \hat{\rho_A} | 1_1 \rangle & {}_A \langle 1_2 | \hat{\rho_A} | 1_2 \rangle \end{bmatrix} = \begin{bmatrix} |\alpha|^2 + \frac{|\beta|^2}{2} & \frac{\alpha \beta^* + \beta \gamma^*}{\sqrt{2}} \\ \frac{\beta \alpha^* + \gamma \beta^*}{\sqrt{2}} & \frac{|\beta|^2}{2} + |\gamma|^2 \end{bmatrix} \\
+\hat{\rho}_A = \begin{bmatrix} \frac{1}{2} & \sqrt{2} \alpha \beta \\ \sqrt{2} \alpha \beta & \frac{1}{2} \end{bmatrix}.
+\end{equation}
+\noindent To get the Von Nuemann entanglement entropy, the eigenvalues of the above matrix are needed. To obtain these eigenvalues, the following equation must be solved:
+\begin{equation}
+\hat{\rho}_A - \lambda \hat{I} = 0. \\
+\end{equation}
+\noindent In matrix form, this becomes:
+\begin{equation}
+\begin{bmatrix} \frac{1}{2} - \lambda & \sqrt{2} \alpha \beta \\ \sqrt{2} \alpha \beta & \frac{1}{2} - \lambda \end{bmatrix} = 0.
+\end{equation}
+\noindent Taking the determinant of this equation yields the characteristic equation:
+\begin{align}
+\frac{1}{4} - \lambda + \lambda^2 -2 \alpha^2 \beta^2 &= 0 \\
+\lambda^2 - \lambda - 2 \alpha^2 \left( 1 - 2 \alpha^2 \right) + \frac{1}{4} &= 0 \\
+\lambda^2 - \lambda - 2 \alpha^2 + 4 \alpha^4 + \frac{1}{4} &= 0.
+\end{align}
+\noindent The eigenvalues can then be solved for using the quadractic equation:
+\begin{align}
+\lambda_{\pm} &= \frac{1 \pm \sqrt{1^2 - 4 \left( 1 \right) \left( -2 \alpha^2 + 4 \alpha^4 + \frac{1}{4} \right) }}{2} = \frac{1 \pm 2 \alpha \sqrt{2 - 4 \alpha^2}}{2}.
+\end{align}
+\noindent The Von Nuemann entanglement entropy is then calculated as follows:
+\begin{align}
+S_1 &= -Tr \left( \rho_A \ln{\rho_A} \right) = -Tr \begin{bmatrix} \lambda_+ & 0 \\ 0 & \lambda_- \end{bmatrix} \begin{bmatrix} \ln{\lambda_+} & 0 \\ 0 & \ln{\lambda_-} \end{bmatrix} \\
+S_1 &= -\lambda_+ \ln{\lambda_+} - \lambda_- \ln{\lambda_-}.
+\end{align}
