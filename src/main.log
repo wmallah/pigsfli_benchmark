@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  3 APR 2024 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  3 APR 2024 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -331,30 +331,55 @@ File: ../figures/hilbert_space_size.pdf Graphic file (type pdf)
 <use ../figures/hilbert_space_size.pdf>
 Package pdftex.def Info: ../figures/hilbert_space_size.pdf  used on input line 19.
 (pdftex.def)             Requested size: 210.0957pt x 208.02733pt.
-)
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<../figures/total_energy.pdf, id=32, 527.61803pt x 380.24496pt>
+File: ../figures/total_energy.pdf Graphic file (type pdf)
+<use ../figures/total_energy.pdf>
+Package pdftex.def Info: ../figures/total_energy.pdf  used on input line 27.
+(pdftex.def)             Requested size: 263.80836pt x 190.12201pt.
+<../figures/sep_occ_hist_U_0.0001.pdf, id=33, 566.2246pt x 408.32549pt>
+File: ../figures/sep_occ_hist_U_0.0001.pdf Graphic file (type pdf)
+<use ../figures/sep_occ_hist_U_0.0001.pdf>
+Package pdftex.def Info: ../figures/sep_occ_hist_U_0.0001.pdf  used on input line 34.
+(pdftex.def)             Requested size: 283.1116pt x 204.16223pt.
+<../figures/spatial_avg_occ_U_0.0001.pdf, id=34, 503.93584pt x 381.24872pt>
+File: ../figures/spatial_avg_occ_U_0.0001.pdf Graphic file (type pdf)
+<use ../figures/spatial_avg_occ_U_0.0001.pdf>
+Package pdftex.def Info: ../figures/spatial_avg_occ_U_0.0001.pdf  used on input line 41.
+(pdftex.def)             Requested size: 251.9673pt x 190.62389pt.
+<../figures/renyi_spatial.pdf, id=35, 509.04868pt x 380.24496pt>
+File: ../figures/renyi_spatial.pdf Graphic file (type pdf)
+<use ../figures/renyi_spatial.pdf>
+Package pdftex.def Info: ../figures/renyi_spatial.pdf  used on input line 48.
+(pdftex.def)             Requested size: 254.52371pt x 190.12201pt.
+)
 No file main.bbl.
 Class revtex4-2 Info: Total figure: Column(0pt), Page(0pt) on input line 46.
 Class revtex4-2 Info: Total table: Column(0pt), Page(0pt) on input line 46.
 Class revtex4-2 Info: Total video: Column(0pt), Page(0pt) on input line 46.
-[5 <../figures/ed_renyi.pdf>] [6 <../figures/hilbert_space_size.pdf>]
-Class revtex4-2 Info: Total text: Column(0pt), Page(3205pt) on input line 46.
- (./main.aux) ) 
+[5 <../figures/ed_renyi.pdf>] [6 <../figures/hilbert_space_size.pdf> <../figures/total_energy.pdf>] [7 <../figures/sep_occ_hist_U_0.0001.pdf> <../figures/spatial_avg_occ_U_0.0001.pdf>] [8 <../figures/renyi_spatial.pdf>]
+Class revtex4-2 Info: Total text: Column(0pt), Page(3932pt) on input line 46.
+ (./main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 7250 strings out of 476025
- 121968 string characters out of 5790017
+ 7288 strings out of 476025
+ 123281 string characters out of 5790017
  1893388 words of memory out of 5000000
- 27599 multiletter control sequences out of 15000+600000
+ 27633 multiletter control sequences out of 15000+600000
  523000 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,14n,76p,909b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 71i,14n,76p,909b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (6 pages, 287791 bytes).
+Output written on main.pdf (8 pages, 336050 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 306 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
