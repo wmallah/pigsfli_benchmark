@@ -1,6 +1,6 @@
 \documentclass[
-    reprint,
-    lengthcheck,
+    preprint,
+    % lengthcheck,
     amsmath, amssymb,
     aps, onecolumn,
     floatfix
@@ -12,17 +12,29 @@
 \usepackage{float}% for positioning tables and figures
 \usepackage{booktabs}% \toprule, \midrule, \bottomrule
 \usepackage[capitalize]{cleveref}% for referencing figures and tables
+\usepackage{silence}
+\WarningFilter{revtex4-2}{Repair the float}
 
 \begin{document}
 
-\preprint{APS/123-QED}
+\begin{titlepage}
+    \begin{center}
+    
+        
+        \textbf{Bose Hubbard Model \& Machine Learning}
+        
+        \vspace{5.5cm}
+        A thesis submitted to\\ the Department of Physics\\ at Saint Vincent College\\ in partial fulfillment\\ for the degree of\\ Bachelor of Science
+        
+        \vspace{4.5cm}			
+        By\\
+        Will Mallah\\
+        May 2024
+        
+        
+    \end{center}
+\end{titlepage}
 
-\title{The Bose-Hubbard Model and Machine Learning}
-
-\author{Will Mallah}
-\affiliation{Physics Department, Saint Vincent College\\}
-
-\date{\today}
 
 \begin{abstract}
     \input{abstract.tex}

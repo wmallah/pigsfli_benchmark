@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  3 APR 2024 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  13 APR 2024 15:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -69,9 +69,9 @@ Class revtex4-2 Info: RevTeX society APS selected on input line 40.
 Class revtex4-2 Warning: No journal specified, using default pra.
 
 Class revtex4-2 Info: APS journal PRA selected on input line 7661.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps10pt4-2.rtx
-File: aps10pt4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for documentation)
-Class revtex4-2 Info: RevTeX pointsize 10pt selected on input line 39.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/revtex/aps12pt4-2.rtx
+File: aps12pt4-2 2020/10/03 4.2e (https://journals.aps.org/revtex/ for documentation)
+Class revtex4-2 Info: RevTeX pointsize 12pt selected on input line 39.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
@@ -236,82 +236,80 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: always capitalise cross-reference names on input line 7830.
 Package cleveref Info: always capitalise cross-reference names on input line 7852.
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/silence/silence.sty
+Package: silence 2012/07/02 v1.5b Selective filtering of warnings and error messages
+\sl@Save=\count284
+\sl@StateNumber=\count285
+\sl@MessageCount=\count286
+\sl@Casualties=\count287
+\sl@Filter=\toks28
+\sl@Message=\toks29
+\sl@UnexpandedMessage=\toks30
+\sl@Mess@ge=\toks31
+\sl@WarningCount=\count288
+\sl@WarningNumber=\count289
+\sl@WarningCasualties=\count290
+\sl@TempBOW=\toks32
+\sl@BankOfWarnings=\toks33
+LaTeX Info: Redefining \GenericWarning on input line 433.
+\sl@ErrorCount=\count291
+\sl@ErrorNumber=\count292
+\sl@ErrorCasualties=\count293
+\sl@TempBOE=\toks34
+\sl@BankOfErrors=\toks35
+LaTeX Info: Redefining \GenericError on input line 601.
 )
-Class revtex4-2 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 16.
-
-
-Class revtex4-2 Warning: Repair the float package.
-
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 16.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 16.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 16.
-(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+Class revtex4-2 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 18.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 18.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 18.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 18.
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
+\l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box72
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
  (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
+\scratchcounter=\count295
 \scratchdimen=\dimen166
 \scratchbox=\box73
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count288
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count298
 \MPscratchDim=\dimen167
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks29
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks37
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \openout3 = `mainNotes.bib'.
 
- (./abstract.tex) (./intro.tex) (./methods.tex
+ [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./abstract.tex)
+
+Class revtex4-2 Warning: No title.
+
+(./intro.tex) (./methods.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -319,14 +317,18 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]) (./discussion.tex
-<../figures/ed_renyi.pdf, id=25, 509.04868pt x 380.24496pt>
+) [2] [3] [4] [5] [6] [7]) (./discussion.tex
+<../figures/ed_renyi.pdf, id=39, 509.04868pt x 380.24496pt>
 File: ../figures/ed_renyi.pdf Graphic file (type pdf)
 <use ../figures/ed_renyi.pdf>
 Package pdftex.def Info: ../figures/ed_renyi.pdf  used on input line 4.
 (pdftex.def)             Requested size: 254.52371pt x 190.12201pt.
- [4]
-<../figures/hilbert_space_size.pdf, id=31, 420.19246pt x 416.0557pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[8]
+<../figures/hilbert_space_size.pdf, id=43, 420.19246pt x 416.0557pt>
 File: ../figures/hilbert_space_size.pdf Graphic file (type pdf)
 <use ../figures/hilbert_space_size.pdf>
 Package pdftex.def Info: ../figures/hilbert_space_size.pdf  used on input line 19.
@@ -335,51 +337,75 @@ Package pdftex.def Info: ../figures/hilbert_space_size.pdf  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figures/total_energy.pdf, id=32, 527.61803pt x 380.24496pt>
+<../figures/total_energy.pdf, id=44, 527.61803pt x 380.24496pt>
 File: ../figures/total_energy.pdf Graphic file (type pdf)
 <use ../figures/total_energy.pdf>
 Package pdftex.def Info: ../figures/total_energy.pdf  used on input line 27.
 (pdftex.def)             Requested size: 263.80836pt x 190.12201pt.
-<../figures/sep_occ_hist_U_0.0001.pdf, id=33, 566.2246pt x 408.32549pt>
+[9 <../figures/ed_renyi.pdf>]
+<../figures/sep_occ_hist_U_0.0001.pdf, id=80, 566.2246pt x 408.32549pt>
 File: ../figures/sep_occ_hist_U_0.0001.pdf Graphic file (type pdf)
 <use ../figures/sep_occ_hist_U_0.0001.pdf>
 Package pdftex.def Info: ../figures/sep_occ_hist_U_0.0001.pdf  used on input line 34.
 (pdftex.def)             Requested size: 283.1116pt x 204.16223pt.
-<../figures/spatial_avg_occ_U_0.0001.pdf, id=34, 503.93584pt x 381.24872pt>
+ [10 <../figures/hilbert_space_size.pdf> <../figures/total_energy.pdf>]
+<../figures/spatial_avg_occ_U_0.0001.pdf, id=154, 503.93584pt x 381.24872pt>
 File: ../figures/spatial_avg_occ_U_0.0001.pdf Graphic file (type pdf)
 <use ../figures/spatial_avg_occ_U_0.0001.pdf>
 Package pdftex.def Info: ../figures/spatial_avg_occ_U_0.0001.pdf  used on input line 41.
 (pdftex.def)             Requested size: 251.9673pt x 190.62389pt.
-<../figures/renyi_spatial.pdf, id=35, 509.04868pt x 380.24496pt>
+<../figures/renyi_spatial.pdf, id=155, 509.04868pt x 380.24496pt>
 File: ../figures/renyi_spatial.pdf Graphic file (type pdf)
 <use ../figures/renyi_spatial.pdf>
 Package pdftex.def Info: ../figures/renyi_spatial.pdf  used on input line 48.
 (pdftex.def)             Requested size: 254.52371pt x 190.12201pt.
-)
+ [11 <../figures/sep_occ_hist_U_0.0001.pdf> <../figures/spatial_avg_occ_U_0.0001.pdf>] [12 <../figures/renyi_spatial.pdf>]
+<../figures/neural_network.pdf, id=253, 354.12299pt x 91.93416pt>
+File: ../figures/neural_network.pdf Graphic file (type pdf)
+<use ../figures/neural_network.pdf>
+Package pdftex.def Info: ../figures/neural_network.pdf  used on input line 78.
+(pdftex.def)             Requested size: 354.1221pt x 91.93393pt.
+<../figures/DNN.pdf, id=254, 354.12299pt x 152.43929pt>
+File: ../figures/DNN.pdf Graphic file (type pdf)
+<use ../figures/DNN.pdf>
+Package pdftex.def Info: ../figures/DNN.pdf  used on input line 87.
+(pdftex.def)             Requested size: 354.1221pt x 152.4389pt.
+<../figures/activation_heat_map.pdf, id=255, 476.79004pt x 271.2075pt>
+File: ../figures/activation_heat_map.pdf Graphic file (type pdf)
+<use ../figures/activation_heat_map.pdf>
+Package pdftex.def Info: ../figures/activation_heat_map.pdf  used on input line 97.
+(pdftex.def)             Requested size: 309.90985pt x 176.28278pt.
+ [13 <../figures/neural_network.pdf> <../figures/DNN.pdf
+
+pdfTeX warning: pdflatex (file ../figures/DNN.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<../figures/activation_3d.pdf, id=562, 355.25511pt x 346.52232pt>
+File: ../figures/activation_3d.pdf Graphic file (type pdf)
+<use ../figures/activation_3d.pdf>
+Package pdftex.def Info: ../figures/activation_3d.pdf  used on input line 103.
+(pdftex.def)             Requested size: 230.91309pt x 225.23683pt.
+ [14 <../figures/activation_heat_map.pdf>]
+<../figures/decay_data.png, id=573, 462.528pt x 346.896pt>
+File: ../figures/decay_data.png Graphic file (type png)
+<use ../figures/decay_data.png>
+Package pdftex.def Info: ../figures/decay_data.png  used on input line 126.
+(pdftex.def)             Requested size: 346.89514pt x 260.17136pt.
+ [15 <../figures/activation_3d.pdf>])
 No file main.bbl.
-Class revtex4-2 Info: Total figure: Column(0pt), Page(0pt) on input line 46.
-Class revtex4-2 Info: Total table: Column(0pt), Page(0pt) on input line 46.
-Class revtex4-2 Info: Total video: Column(0pt), Page(0pt) on input line 46.
-[5 <../figures/ed_renyi.pdf>] [6 <../figures/hilbert_space_size.pdf> <../figures/total_energy.pdf>] [7 <../figures/sep_occ_hist_U_0.0001.pdf> <../figures/spatial_avg_occ_U_0.0001.pdf>] [8 <../figures/renyi_spatial.pdf>]
-Class revtex4-2 Info: Total text: Column(0pt), Page(3932pt) on input line 46.
- (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[16 <../figures/decay_data.png>] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 7288 strings out of 476025
- 123281 string characters out of 5790017
- 1893388 words of memory out of 5000000
- 27633 multiletter control sequences out of 15000+600000
- 523000 words of font info for 71 fonts, out of 8000000 for 9000
+ 6882 strings out of 476025
+ 115115 string characters out of 5790017
+ 1881388 words of memory out of 5000000
+ 27256 multiletter control sequences out of 15000+600000
+ 523480 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,14n,76p,909b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (8 pages, 336050 bytes).
+ 71i,14n,76p,1041b,330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on main.pdf (16 pages, 640359 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
+ 661 PDF objects out of 1000 (max. 8388607)
+ 340 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
