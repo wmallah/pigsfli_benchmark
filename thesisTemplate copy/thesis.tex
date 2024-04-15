@@ -41,15 +41,9 @@
 \usepackage{amsmath}  % needed for \tfrac, \bmatrix, etc.
 \usepackage{amsfonts} % needed for bold Greek, Fraktur, and blackboard bold
 \usepackage{graphicx} % needed for figures
-\usepackage{float}
-\usepackage[capitalize]{cleveref}% for referencing figures and tables
 
 \setlength{\parindent}{.5in}
 \graphicspath{ {./images/} }
-
-\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
-\setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{4}
 
 
 \usepackage{indentfirst}
@@ -61,15 +55,15 @@
 		\begin{center}
 		
 			
-			\textbf{Bose Hubbard Model \& Machine Learning}
+			\textbf{YOUR THESIS TITLE}
 			
 			\vspace{5.5cm}
 			A thesis submitted to\\ the Department of Physics\\ at Saint Vincent College\\ in partial fulfillment\\ for the degree of\\ Bachelor of Science
 			
 			\vspace{4.5cm}			
 			By\\
-			Will Mallah\\
-			May 2024
+			YOUR NAME\\
+			May 20XX
 			
 			
 		\end{center}
@@ -91,13 +85,30 @@
 %\setlength{\parindent}{.5in}
 		
 \section{Introduction}
-\input{intro.tex}
+	
+Place your introduction here.
+	
+	
+\newpage %start sections on new pages
+	
+\section{Here is a section}
 
-\section{Methods} \label{methods}
-\input{methods.tex}
+Some introductory text.
+\subsection{Here is a subsection} 
+Some subsection text. Here is some text that needs to be referenced.\cite{Zettili2009}
+	
+ \subsection{Another subsection}
+ 
+ More insightful subsection text. Here is another reference.\cite{Hecht2002}
+ 
+\newpage	
+\section{Methods}
 
+Some text for a Methods section. 		
+
+\newpage	
 \section{Discussion}
-\input{discussion.tex}
+
 
 
 \newpage

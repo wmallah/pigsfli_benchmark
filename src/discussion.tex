@@ -5,7 +5,7 @@
 \caption{The figure above is a graph of the Renyi entanglement entropy for both spatial and particle bipartitions versus the ratio of the interaction term to the hopping term.}
 \end{figure}
 
-\subsection{PIGSFLI Algorithm}
+\subsection{PIGSFLI Algorithm} \label{PIGSFLI}
 
 A Monte Carlo simulation is a stochastic (random) method of integration, which allows for accurate estimations of desired values. Monte Carlo is necessary for situations where exact calculations are too computationally expensive, such as in the exact diagonalization of the reduced density matrix for high particle/site number Bose Hubbard systems. The size of the Hilbert space is calculated by \cref{eq:36} and shown by \cref{fig:hilbert_space_size}:
 
@@ -32,17 +32,33 @@ D = \frac{\left(N+L-1\right)!}{\left(N\right)!\left(L-1\right)!}
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{../figures/sep_occ_hist_U_0.0001.pdf}
-\caption{The figure above shows the histogram of the occupation number for the particle bipartition as a function of the ratio of the interaction term to the hopping term. This graph specifically shows the case where the interaction term is $10$ times the hopping term.}
+\caption{The figure above shows the histogram of the occupation number for the particle bipartition as a function of the ratio of the interaction term to the hopping term. This graph specifically shows the case where the interaction term is a tenth of the hopping term.}
 \label{fig:sep_occ_hist_U_0.0001}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{../figures/spatial_avg_occ_U_0.0001.pdf}
-\caption{The figure above shows the average occupation number for the spatial bipartition as a function of the ratio of the interaction term to the hopping term. This graph specifically shows the case where the interaction term is $10$ times the hopping term.}
+\caption{The figure above shows the average occupation number for the spatial bipartition as a function of the ratio of the interaction term to the hopping term. This graph specifically shows the case where the interaction term is a tenth of the hopping term.}
 \label{fig:spatial_avg_occ_U_0.0001}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{../figures/sep_occ_hist_U_10.0000.pdf}
+\caption{The figure above shows the histogram of the occupation number for the spatial bipartition as a function of the ratio of the interaction term to the hopping term. This graph specifically shows the case where the interaction term is $10$ times the hopping term.}
+\label{fig:spatial_occ_hist_U_10.0000}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{../figures/spatial_avg_occ_U_10.0000.pdf}
+\caption{The figure above shows the average occupation number for the spatial bipartition as a function of the ratio of the interaction term to the hopping term. This graph specifically shows the case where the interaction term is $10$ times the hopping term.}
+\label{fig:spatial_avg_occ_U_10.0000}    
+\end{figure}
+
+
+\subsubsection{Comparison of PIGSFLI to Exact Diagonalization} \label{results}
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.5]{../figures/renyi_spatial.pdf}
@@ -50,9 +66,11 @@ D = \frac{\left(N+L-1\right)!}{\left(N\right)!\left(L-1\right)!}
 \label{fig:renyi_spatial}
 \end{figure}
 
-\section{Introduction to Machine Learning for Scientists}
+\subsection{Introduction to Machine Learning for Scientists}
 
-\subsection{Applications of DNN to Physics}
+While working with the DelMaestro group and attending lectures held during the QAO REU at the University of Tennessee Koxville, I was exposed to machine learning as a tool for physicists and other scientists alike. 
+
+\subsubsection{Applications of DNN to Physics}
 
 \begin{description}
 \item [Application:] Learning the Energy Potential
@@ -71,7 +89,7 @@ D = \frac{\left(N+L-1\right)!}{\left(N\right)!\left(L-1\right)!}
 \item [Description:] 
 \end{description}
 
-\subsection{Basic Neural Networks}
+\subsubsection{Basic Neural Networks}
 
 \begin{figure}[H]
 \centering
@@ -88,7 +106,7 @@ D = \frac{\left(N+L-1\right)!}{\left(N\right)!\left(L-1\right)!}
 \caption{The figure above is an example of a simple feed-forward deep neural network, taking in nine inputs and returning one output with one hidden layer between the input and output layers.}
 \end{figure}
 			
-\subsection{Visualizing Feed Forward}
+\subsubsection{Visualizing Feed Forward}
 
 Some examples to visualize complexity generated from simple feed forward neural network with 2 input parameters and 2 hidden layers with 200 nodes each are shown below:
 
@@ -104,10 +122,10 @@ Some examples to visualize complexity generated from simple feed forward neural 
 \caption{The figure above is the activation output as a function of the two parameters $x_0$ and $x_1$, which were randomly generated. The activation is calculated through use of the sigmoid function. Specifically, this is a heat map in 3-dimensional space where the activation is the on the vertical axis.}
 \end{figure}
 
-\subsection{Batch Processing}
+\subsubsection{Batch Processing}
 
-\subsection{Linear Regression}
-\subsubsection{Linear Regression Example}
+\subsubsection{Linear Regression}
+\subsubsubsection{Linear Regression Example}
 The radioactive decay of an unknown sample is described by the following equation:
 \begin{equation}
 N(t) = N(0) e^{-t/\tau},
@@ -127,6 +145,6 @@ were $F$ is the function we're trying to fit, $w_0$ and $w_1$ are the weights, w
 \caption{This figure is a plot of the number of atoms versus time passed in seconds. The blue data points in the figure above represent the experimental data and the black line represents the linear fit to this data using a simple feed-forward neural network.}
 \end{figure}
 
-\subsection{Feature Maps}
+\subsubsection{Feature Maps}
 
-\subsection{Model Complexity}
+\subsubsection{Model Complexity}
