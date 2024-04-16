@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  14 APR 2024 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.22)  16 APR 2024 18:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -402,7 +402,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3] (./intro.tex [4]) (./methods.tex
+ [3] (./intro.tex
+
+LaTeX Warning: Citation `singh_study_2005' on page 4 undefined on input line 9.
+
+
+LaTeX Warning: Citation `hartman_lectures_2015' on page 4 undefined on input line 14.
+
+[4]) (./methods.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 2.
@@ -429,7 +436,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 113.
 
 [10] [11]) (./discussion.tex
-<../figures/ed_renyi.pdf, id=184, 509.04868pt x 380.24496pt>
+<../figures/ed_renyi.pdf, id=185, 509.04868pt x 380.24496pt>
 File: ../figures/ed_renyi.pdf Graphic file (type pdf)
 <use ../figures/ed_renyi.pdf>
 Package pdftex.def Info: ../figures/ed_renyi.pdf  used on input line 4.
@@ -439,7 +446,7 @@ Package pdftex.def Info: ../figures/ed_renyi.pdf  used on input line 4.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12]
-<../figures/hilbert_space_size.pdf, id=200, 420.19246pt x 416.0557pt>
+<../figures/hilbert_space_size.pdf, id=201, 420.19246pt x 416.0557pt>
 File: ../figures/hilbert_space_size.pdf Graphic file (type pdf)
 <use ../figures/hilbert_space_size.pdf>
 Package pdftex.def Info: ../figures/hilbert_space_size.pdf  used on input line 19.
@@ -448,7 +455,7 @@ Package pdftex.def Info: ../figures/hilbert_space_size.pdf  used on input line 1
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figures/total_energy.pdf, id=201, 527.61803pt x 380.24496pt>
+<../figures/total_energy.pdf, id=202, 527.61803pt x 380.24496pt>
 File: ../figures/total_energy.pdf Graphic file (type pdf)
 <use ../figures/total_energy.pdf>
 Package pdftex.def Info: ../figures/total_energy.pdf  used on input line 27.
@@ -459,7 +466,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.31 
       <../figures/ed_renyi.pdf>]
-<../figures/sep_occ_hist_U_0.0001.pdf, id=241, 566.2246pt x 408.32549pt>
+<../figures/sep_occ_hist_U_0.0001.pdf, id=242, 566.2246pt x 408.32549pt>
 File: ../figures/sep_occ_hist_U_0.0001.pdf Graphic file (type pdf)
 <use ../figures/sep_occ_hist_U_0.0001.pdf>
 Package pdftex.def Info: ../figures/sep_occ_hist_U_0.0001.pdf  used on input line 34.
@@ -475,12 +482,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.38 
       <../figures/hilbert_space_size.pdf> <../figures/total_energy.pdf>]
-<../figures/spatial_avg_occ_U_0.0001.pdf, id=317, 503.93584pt x 381.24872pt>
+<../figures/spatial_avg_occ_U_0.0001.pdf, id=318, 503.93584pt x 381.24872pt>
 File: ../figures/spatial_avg_occ_U_0.0001.pdf Graphic file (type pdf)
 <use ../figures/spatial_avg_occ_U_0.0001.pdf>
 Package pdftex.def Info: ../figures/spatial_avg_occ_U_0.0001.pdf  used on input line 41.
 (pdftex.def)             Requested size: 251.9673pt x 190.62389pt.
-<../figures/sep_occ_hist_U_10.0000.pdf, id=318, 563.70598pt x 408.32549pt>
+<../figures/sep_occ_hist_U_10.0000.pdf, id=319, 563.70598pt x 408.32549pt>
 File: ../figures/sep_occ_hist_U_10.0000.pdf Graphic file (type pdf)
 <use ../figures/sep_occ_hist_U_10.0000.pdf>
 Package pdftex.def Info: ../figures/sep_occ_hist_U_10.0000.pdf  used on input line 48.
@@ -496,12 +503,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.52 
       <../figures/sep_occ_hist_U_0.0001.pdf> <../figures/spatial_avg_occ_U_0.0001.pdf>]
-<../figures/spatial_avg_occ_U_10.0000.pdf, id=383, 503.93584pt x 381.24872pt>
+<../figures/spatial_avg_occ_U_10.0000.pdf, id=384, 503.93584pt x 381.24872pt>
 File: ../figures/spatial_avg_occ_U_10.0000.pdf Graphic file (type pdf)
 <use ../figures/spatial_avg_occ_U_10.0000.pdf>
 Package pdftex.def Info: ../figures/spatial_avg_occ_U_10.0000.pdf  used on input line 55.
 (pdftex.def)             Requested size: 251.9673pt x 190.62389pt.
-<../figures/renyi_spatial.pdf, id=384, 509.04868pt x 380.24496pt>
+<../figures/renyi_spatial.pdf, id=385, 509.04868pt x 380.24496pt>
 File: ../figures/renyi_spatial.pdf Graphic file (type pdf)
 <use ../figures/renyi_spatial.pdf>
 Package pdftex.def Info: ../figures/renyi_spatial.pdf  used on input line 64.
@@ -522,12 +529,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has
                                                   \__shipout_drop_firstpage_...
 l.82 \item[Application:]
                          Variational Ansatz <../figures/renyi_spatial.pdf>]
-<../figures/neural_network.pdf, id=489, 354.12299pt x 91.93416pt>
+<../figures/neural_network.pdf, id=490, 354.12299pt x 91.93416pt>
 File: ../figures/neural_network.pdf Graphic file (type pdf)
 <use ../figures/neural_network.pdf>
 Package pdftex.def Info: ../figures/neural_network.pdf  used on input line 96.
 (pdftex.def)             Requested size: 354.1221pt x 91.93393pt.
-<../figures/DNN.pdf, id=490, 354.12299pt x 152.43929pt>
+<../figures/DNN.pdf, id=491, 354.12299pt x 152.43929pt>
 File: ../figures/DNN.pdf Graphic file (type pdf)
 <use ../figures/DNN.pdf>
 Package pdftex.def Info: ../figures/DNN.pdf  used on input line 105.
@@ -538,7 +545,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has
                                                   \__shipout_drop_firstpage_...
 l.108 			
           <../figures/neural_network.pdf>]
-<../figures/activation_heat_map.pdf, id=641, 476.79004pt x 271.2075pt>
+<../figures/activation_heat_map.pdf, id=642, 476.79004pt x 271.2075pt>
 File: ../figures/activation_heat_map.pdf Graphic file (type pdf)
 <use ../figures/activation_heat_map.pdf>
 Package pdftex.def Info: ../figures/activation_heat_map.pdf  used on input line 115.
@@ -549,7 +556,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) ha
                                                   \__shipout_drop_firstpage_...
 l.118 
        <../figures/DNN.pdf>]
-<../figures/activation_3d.pdf, id=806, 355.25511pt x 346.52232pt>
+<../figures/activation_3d.pdf, id=807, 355.25511pt x 346.52232pt>
 File: ../figures/activation_3d.pdf Graphic file (type pdf)
 <use ../figures/activation_3d.pdf>
 Package pdftex.def Info: ../figures/activation_3d.pdf  used on input line 121.
@@ -568,7 +575,7 @@ l.132 \end{equation}
 
 pdfTeX warning: pdflatex (file ../figures/activation_3d.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<../figures/decay_data.png, id=833, 462.528pt x 346.896pt>
+<../figures/decay_data.png, id=834, 462.528pt x 346.896pt>
 File: ../figures/decay_data.png Graphic file (type png)
 <use ../figures/decay_data.png>
 Package pdftex.def Info: ../figures/decay_data.png  used on input line 144.
@@ -581,22 +588,25 @@ l.103 \newpage
                <../figures/decay_data.png>]
 No file main.bbl.
 [23] (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: C1CE09426E205FBBB5EB88FF434EB5B3;3633.
  ) 
 Here is how much of TeX's memory you used:
- 12585 strings out of 476025
- 215165 string characters out of 5790017
+ 12589 strings out of 476025
+ 215225 string characters out of 5790017
  1870388 words of memory out of 5000000
- 32760 multiletter control sequences out of 15000+600000
- 519058 words of font info for 57 fonts, out of 8000000 for 9000
+ 32763 multiletter control sequences out of 15000+600000
+ 519367 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,14n,76p,1041b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (24 pages, 633835 bytes).
+ 75i,14n,76p,1075b,564s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (24 pages, 642067 bytes).
 PDF statistics:
- 926 PDF objects out of 1000 (max. 8388607)
- 550 compressed objects within 6 object streams
+ 931 PDF objects out of 1000 (max. 8388607)
+ 553 compressed objects within 6 object streams
  95 named destinations out of 1000 (max. 500000)
  210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
