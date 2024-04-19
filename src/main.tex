@@ -18,20 +18,15 @@
 
 
 \documentclass[longbibliography, 12pt]{article}
-%\documentclass[Letter,12pt]{article}
 \usepackage[paperheight=11in,paperwidth=8.5in,margin =1in]{geometry}
 \usepackage{setspace}
 \doublespacing
 %\pagenumbering{0}
 \setlength{\parskip}{1em}
 \usepackage[superscript,biblabel]{cite}
-
-
-
 \usepackage[english]{babel}
 %\usepackage [autostyle, english = american]{csquotes}
 %\MakeOuterQuote{"}
-
 % BEGIN bibliography customizations
 \usepackage[colorlinks, allcolors=blue]{hyperref}
 
@@ -45,12 +40,11 @@
 \usepackage[capitalize]{cleveref}% for referencing figures and tables
 
 \setlength{\parindent}{.5in}
-\graphicspath{ {./images/} }
+% \graphicspath{ {./images/} }
 
 \newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
 \setcounter{secnumdepth}{4}
 \setcounter{tocdepth}{4}
-
 
 \usepackage{indentfirst}
 
@@ -59,8 +53,6 @@
 
 	\begin{titlepage}
 		\begin{center}
-		
-			
 			\textbf{Bose-Hubbard Model \& Machine Learning}
 			
 			\vspace{5.5cm}
@@ -70,19 +62,13 @@
 			By\\
 			Will Mallah\\
 			May 2024
-			
-			
+
 		\end{center}
 	\end{titlepage}
 
 \newpage
 \begin{abstract}
-	
-	Insert concise abstract here (write this last).
-	
-	
-	
-	
+\input{abstract.tex}
 \end{abstract}
 
 \newpage
