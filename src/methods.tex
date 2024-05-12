@@ -6,9 +6,9 @@ The following subsection consists of the by-hand exact-diagonalization calculati
 \subsubsection{$2^{nd}$ Quantization Von Nuemann Entanglement Entropy Calculation}
 To get a better initial feeling for this calculation, we begin with the simpler case: $2^{nd}$ quantization or spatial entanglement. Additionally, systems bigger than 2 particles on 2 sites make by-hand calculations unreadable. Therefore, all following calculations and data analysis only deal with 2 particles on 2 sites for the Bose-Hubbard model. The basis for $2^{nd}$ quantization with 2 particles on 2 sites is as follows:
 \begin{equation}
-|2 0 \rangle, |1 1 \rangle, |0 2 \rangle.
+|2 0 \rangle, |1 1 \rangle, |0 2 \rangle,
 \end{equation}
-\noindent The full Hamiltonian for the Bose-Hubbard system is
+\noindent where the left-most number corresponds to the number of bosons on site A and the right-most on site B. The full Hamiltonian for the Bose-Hubbard system is
 \begin{equation}
 \hat{H} = -J\sum_i{b_i^{\dagger}b_{i+1} + b_{i+1}^{\dagger}b_i} + \frac{U}{2}\sum_i{n_i(n_i - 1)} - \mu\sum_i{n_i},
 \label{eq:2}
@@ -115,7 +115,7 @@ E_3 &= \frac{1}{2} \left( U + \sqrt{16J^2 + U^2} \right).
 \end{align*}
 \noindent where $U' = \frac{U}{J}$. Finally, the Von Nuemann spatial entanglement entropy is calculated as follows:
 \begin{align}
-S_1 &= -Tr \left( \rho_A \ln{\rho_A} \right) = -Tr \begin{bmatrix} |\alpha|^2 \ln{|\alpha|^2} & 0 & 0 \\ 0 & |\beta|^2 \ln{|\beta|^2} & 0 \\ 0 & 0 & |\gamma|^2 \ln{|\gamma|^2} \end{bmatrix} \\
+S_1 &= -\text{Tr} \left( \rho_A \ln{\rho_A} \right) = -\text{Tr} \begin{bmatrix} |\alpha|^2 \ln{|\alpha|^2} & 0 & 0 \\ 0 & |\beta|^2 \ln{|\beta|^2} & 0 \\ 0 & 0 & |\gamma|^2 \ln{|\gamma|^2} \end{bmatrix} \\
 S_1 &= -\left[ |\alpha|^2 \ln{|\alpha|^2} + |\beta|^2 \ln{|\beta|^2} + |\gamma|^2 \ln{|\gamma|^2} \right]
 \end{align}
 \noindent This result shows that the Von Neumann entanglement entropy depends only on the elements of the ground state vector of the system: $\alpha$, $\beta$, and $\gamma$.
@@ -161,7 +161,7 @@ The only surviving terms from the above calculation are
 \end{equation}
 \noindent To get the Von Nuemann entanglement entropy, the eigenvalues of the above matrix are needed. To obtain these eigenvalues, the following equation must be solved:
 \begin{equation}
-\hat{\rho}_A - \lambda \hat{I} = 0 \\
+\hat{\rho}_A - \lambda \hat{I} = 0, \\
 \end{equation}
 \noindent where $\lambda$ is the eigenvalue we are solving for. In matrix form, this becomes:
 \begin{equation}
@@ -169,8 +169,6 @@ The only surviving terms from the above calculation are
 \end{equation}
 \noindent Taking the determinant of this equation yields the characteristic equation:
 \begin{align}
-\frac{1}{4} - \lambda + \lambda^2 -2 \alpha^2 \beta^2 &= 0 \\
-\lambda^2 - \lambda - 2 \alpha^2 \left( 1 - 2 \alpha^2 \right) + \frac{1}{4} &= 0 \\
 \lambda^2 - \lambda - 2 \alpha^2 + 4 \alpha^4 + \frac{1}{4} &= 0.
 \end{align}
 \noindent The eigenvalues can then be calculated using the quadratic equation:
@@ -180,7 +178,7 @@ The only surviving terms from the above calculation are
 \end{align}
 \noindent The Von Nuemann particle entanglement entropy is then calculated as follows:
 \begin{align}
-S_1 &= -Tr \left( \rho_A \ln{\rho_A} \right) = -Tr \begin{bmatrix} \lambda_+ & 0 \\ 0 & \lambda_- \end{bmatrix} \begin{bmatrix} \ln{\lambda_+} & 0 \\ 0 & \ln{\lambda_-} \end{bmatrix} \\
+S_1 &= -\text{Tr} \left( \rho_A \ln{\rho_A} \right) = -\text{Tr} \begin{bmatrix} \lambda_+ & 0 \\ 0 & \lambda_- \end{bmatrix} \begin{bmatrix} \ln{\lambda_+} & 0 \\ 0 & \ln{\lambda_-} \end{bmatrix} \\
 S_1 &= -\lambda_+ \ln{\lambda_+} - \lambda_- \ln{\lambda_-}
 \end{align}
 \noindent where $\lambda_+$ and $\lambda_-$ are defined by \cref*{eq:lambda_pm}. Similar to the Von Neumann entanglement entropy calculation for $2^{nd}$ quantization, the entanglement entropy for $1^{st}$ quantization also depends only on the elements of the ground state vector for the system.
